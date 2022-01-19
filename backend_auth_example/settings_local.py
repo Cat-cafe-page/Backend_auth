@@ -71,7 +71,8 @@ REST_FRAMEWORK = {
     ),
 }
 
-ROOT_URLCONF = 'backend_auth_example.urls'
+AUTH_USER_MODEL = 'auth_example.User'
+ROOT_URLCONF    = 'backend_auth_example.urls'
 
 TEMPLATES = [
     {
@@ -98,10 +99,10 @@ WSGI_APPLICATION = 'backend_auth_example.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE'   : 'django.db.backends.postgresql_psycopg2',
-        'NAME'     : 'd1md223hq5p40v',
-        'USER'     : 'xuxqjbgmojtijv',
-        'PASSWORD' : '52f06714a5d7a766530c8b4b5f024a1f9b8a63c4f8bfa0f1afc337bba810fffd',
-        'HOST'     : 'ec2-34-233-112-169.compute-1.amazonaws.com',
+        'NAME'     : 'autenticacion',
+        'USER'     : 'postgres',
+        'PASSWORD' : 'password',
+        'HOST'     : 'localhost',
         'PORT'     : '5432'
     }
 }
