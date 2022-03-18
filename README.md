@@ -6,7 +6,7 @@ El presente codigo permite al administrador crear una cuenta para poder modifica
 Lo primero por hacer es clonar el repositorio:
 
 ```sh
-$ git clone https://github.com/Cat-cafe-page/backend_donaciones.git
+$ git clone https://github.com/Cat-cafe-page/backend_auth.git
 $ cd Backend_auth
 ```
 
